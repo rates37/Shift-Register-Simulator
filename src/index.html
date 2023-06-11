@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <title>Shift Register Simulator</title>
+  </head>
+  <body>
+    <h1>Shift Register Simulator</h1>
+    <div style="width: 55%; height: 80%; margin: auto;">
+      <svg width="100%" height="auto" viewBox="100 0 1000 700">
+        <defs></defs>
+        <g id="Background">
+          <rect x="100" width="1000" height="700" rx="5" ry="5" style="stroke: rgb(0, 0, 0); fill: rgb(0, 140, 74);"></rect>
+        </g>
+        <g id="shiftreg">
+          <rect x="800" y="100" width="45.157" height="100" style="stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="151.136" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="163.659" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="175.348" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="188" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="102.611" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="115.134" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="126.823" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="791.208" y="139.475" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="151.136" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="163.659" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="175.348" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="188" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="102.611" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="115.134" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="126.823" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <rect x="845.157" y="139.475" width="8.792" height="7.89" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+          <path style="stroke: rgb(0, 0, 0); fill: rgb(91, 91, 91);" d="M 812.342 100 C 812.342 100 822.986 113.454 834.247 100.034"></path>
+        </g>
+        <g id="7seg">
+          <rect x="400" y="100" width="300" height="100" style="stroke: rgb(0, 0, 0);"></rect>
+          <g transform="matrix(0.762766, 0, 0, 0.762766, 210.313705, -78.630142)" id="D1">
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 292.824 251.336 L 297.247 246.772 L 324.441 246.679 L 329.424 251.382 L 325 255.992 L 297.48 256.085 L 292.824 251.336 Z" id="D1_a"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 330.276 255.916 L 325.963 260.229 L 321.236 287.928 L 325.466 292.573 L 330.359 288.177 L 335.003 260.643 L 330.276 255.916 Z" id="D1_b"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 291.38 255.916 L 287.067 260.229 L 282.34 287.928 L 286.57 292.573 L 291.463 288.177 L 296.107 260.643 L 291.38 255.916 Z" id="D1_f"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 288.104 297.23 L 292.527 292.666 L 319.721 292.573 L 324.704 297.276 L 320.28 301.886 L 292.76 301.979 L 288.104 297.23 Z" id="D1_g"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 286.66 301.81 L 282.347 306.123 L 277.62 333.822 L 281.85 338.467 L 286.743 334.071 L 291.387 306.537 L 286.66 301.81 Z" id="D1_e"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 325.556 301.81 L 321.243 306.123 L 316.516 333.822 L 320.746 338.467 L 325.639 334.071 L 330.283 306.537 L 325.556 301.81 Z" id="D1_c"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 283.779 343.939 L 288.202 339.375 L 315.396 339.282 L 320.379 343.985 L 315.955 348.595 L 288.435 348.688 L 283.779 343.939 Z" id="D1_d"></path>
+            <ellipse style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" cx="334.095" cy="344.392" rx="5.11" ry="5.11" id="D1_dp"></ellipse>
+          </g>
+          <g transform="matrix(0.762766, 0, 0, 0.762766, 281.240906, -78.630142)" id="D2">
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 292.824 251.336 L 297.247 246.772 L 324.441 246.679 L 329.424 251.382 L 325 255.992 L 297.48 256.085 L 292.824 251.336 Z" id="D2_a"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 291.38 255.916 L 287.067 260.229 L 282.34 287.928 L 286.57 292.573 L 291.463 288.177 L 296.107 260.643 L 291.38 255.916 Z" id="D2_f"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 330.276 255.916 L 325.963 260.229 L 321.236 287.928 L 325.466 292.573 L 330.359 288.177 L 335.003 260.643 L 330.276 255.916 Z" id="D2_b"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 288.104 297.23 L 292.527 292.666 L 319.721 292.573 L 324.704 297.276 L 320.28 301.886 L 292.76 301.979 L 288.104 297.23 Z" id="D2_g"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 286.66 301.81 L 282.347 306.123 L 277.62 333.822 L 281.85 338.467 L 286.743 334.071 L 291.387 306.537 L 286.66 301.81 Z" id="D2_e"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 325.556 301.81 L 321.243 306.123 L 316.516 333.822 L 320.746 338.467 L 325.639 334.071 L 330.283 306.537 L 325.556 301.81 Z" id="D2_c"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 283.779 343.939 L 288.202 339.375 L 315.396 339.282 L 320.379 343.985 L 315.955 348.595 L 288.435 348.688 L 283.779 343.939 Z" id="D2_d"></path>
+            <ellipse style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" cx="334.095" cy="344.392" rx="5.11" ry="5.11" id="D2_dp"></ellipse>
+          </g>
+          <g transform="matrix(0.762766, 0, 0, 0.762766, 350.424103, -78.630142)" id="D3">
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 292.824 251.336 L 297.247 246.772 L 324.441 246.679 L 329.424 251.382 L 325 255.992 L 297.48 256.085 L 292.824 251.336 Z" id="D3_a"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 291.38 255.916 L 287.067 260.229 L 282.34 287.928 L 286.57 292.573 L 291.463 288.177 L 296.107 260.643 L 291.38 255.916 Z" id="D3_f"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 330.276 255.916 L 325.963 260.229 L 321.236 287.928 L 325.466 292.573 L 330.359 288.177 L 335.003 260.643 L 330.276 255.916 Z" id="D3_b"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 288.104 297.23 L 292.527 292.666 L 319.721 292.573 L 324.704 297.276 L 320.28 301.886 L 292.76 301.979 L 288.104 297.23 Z" id="D3_g"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 286.66 301.81 L 282.347 306.123 L 277.62 333.822 L 281.85 338.467 L 286.743 334.071 L 291.387 306.537 L 286.66 301.81 Z" id="D3_e"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 325.556 301.81 L 321.243 306.123 L 316.516 333.822 L 320.746 338.467 L 325.639 334.071 L 330.283 306.537 L 325.556 301.81 Z" id="D3_c"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 283.779 343.939 L 288.202 339.375 L 315.396 339.282 L 320.379 343.985 L 315.955 348.595 L 288.435 348.688 L 283.779 343.939 Z" id="D3_d"></path>
+            <ellipse style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" cx="334.095" cy="344.392" rx="5.11" ry="5.11" id="D3_dp"></ellipse>
+          </g>
+          <g transform="matrix(0.762766, 0, 0, 0.762766, 420.445618, -78.630142)" id="D4">
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 292.824 251.336 L 297.247 246.772 L 324.441 246.679 L 329.424 251.382 L 325 255.992 L 297.48 256.085 L 292.824 251.336 Z" id="D4_a"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 291.38 255.916 L 287.067 260.229 L 282.34 287.928 L 286.57 292.573 L 291.463 288.177 L 296.107 260.643 L 291.38 255.916 Z" id="D4_f"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 330.276 255.916 L 325.963 260.229 L 321.236 287.928 L 325.466 292.573 L 330.359 288.177 L 335.003 260.643 L 330.276 255.916 Z" id="D4_b"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 288.104 297.23 L 292.527 292.666 L 319.721 292.573 L 324.704 297.276 L 320.28 301.886 L 292.76 301.979 L 288.104 297.23 Z" id="D4_g"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 286.66 301.81 L 282.347 306.123 L 277.62 333.822 L 281.85 338.467 L 286.743 334.071 L 291.387 306.537 L 286.66 301.81 Z" id="D4_e"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 325.556 301.81 L 321.243 306.123 L 316.516 333.822 L 320.746 338.467 L 325.639 334.071 L 330.283 306.537 L 325.556 301.81 Z" id="D4_c"></path>
+            <path style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" d="M 283.779 343.939 L 288.202 339.375 L 315.396 339.282 L 320.379 343.985 L 315.955 348.595 L 288.435 348.688 L 283.779 343.939 Z" id="D4_d"></path>
+            <ellipse style="fill: rgb(216, 216, 216); stroke: rgba(0, 0, 0, 0);" cx="334.095" cy="344.392" rx="5.11" ry="5.11" id="D4_dp"></ellipse>
+          </g>
+        </g>
+        <g id="D_Switches">
+          <rect x="141" y="100" width="159" height="100" style="fill: rgb(255, 60, 60); stroke: rgba(0, 0, 0, 0);"></rect>
+          <g id="D_Switch_1">
+            <rect x="151.736" y="113.745" width="25.992" height="48.078" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="155.486" y="118.339" width="18.656" height="16.202" rx="5" ry="5" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" id="D_Switch_Inner_1"></rect>
+          </g>
+          <g id="D_Switch_2">
+            <rect x="188.633" y="113.745" width="25.992" height="48.078" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="192.383" y="118.339" width="18.656" height="16.202" rx="5" ry="5" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" id="D_Switch_Inner_2"></rect>
+          </g>
+          <g id="D_Switch_3">
+            <rect x="226.008" y="113.745" width="25.992" height="48.078" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="229.758" y="118.339" width="18.656" height="16.202" rx="5" ry="5" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" id="D_Switch_Inner_3"></rect>
+          </g>
+          <g id="D_Switch_4">
+            <rect x="262.905" y="113.745" width="25.992" height="48.078" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="266.655" y="118.339" width="18.656" height="16.202" rx="5" ry="5" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 255);" id="D_Switch_Inner_4"></rect>
+          </g>
+          <g id="D_Switch_Text">
+            <text style="fill: rgb(255, 255, 255); font-family: Courier New; font-size: 25px; white-space: pre;" x="159.139" y="190">1</text>
+            <text style="fill: rgb(255, 255, 255); font-family: Courier New; font-size: 25px; white-space: pre;" x="194.228" y="190">2</text>
+            <text style="fill: rgb(255, 255, 255); font-family: Courier New; font-size: 25px; white-space: pre;" x="233.411" y="190">3</text>
+            <text style="fill: rgb(255, 255, 255); font-family: Courier New; font-size: 25px; white-space: pre;" x="270.308" y="190">4</text>
+          </g>
+        </g>
+        <g id="SRCLK">
+          <g id="Button_SRCLK">
+            <rect x="400" y="550" width="50" height="50" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="425" cy="575" rx="14.866" ry="14.866"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="407.634" cy="557.634" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="442.366" cy="557.634" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="407.634" cy="592.366" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="442.366" cy="592.366" rx="2.5" ry="2.5"></ellipse>
+          </g>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="400" y="633.654">SRCLK</text>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="425.134" cy="515" rx="15" ry="15" id="LED_SRCLK"></ellipse>
+        </g>
+        <g id="RCLK">
+          <g id="Button_RCLK">
+            <rect x="600" y="550" width="50" height="50" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="625" cy="575" rx="14.866" ry="14.866"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="607.634" cy="557.634" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="642.366" cy="557.634" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="607.634" cy="592.366" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="642.366" cy="592.366" rx="2.5" ry="2.5"></ellipse>
+          </g>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="600" y="633.654">RCLK</text>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="625.134" cy="515" rx="15" ry="15" id="LED_RCLK"></ellipse>
+        </g>
+        <g id="SRCLR">
+          <g id="Button_SRCLR">
+            <rect x="400" y="308.989" width="50" height="50" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="425" cy="333.989" rx="14.866" ry="14.866"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="407.634" cy="316.623" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="442.366" cy="316.623" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="407.634" cy="351.355" rx="2.5" ry="2.5"></ellipse>
+            <ellipse style="stroke: rgb(0, 0, 0);" cx="442.366" cy="351.355" rx="2.5" ry="2.5"></ellipse>
+          </g>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="400" y="392.643">SRCLR</text>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="425.134" cy="273.989" rx="15" ry="15" id="LED_SRCLR"></ellipse>
+        </g>
+        <g id="OE">
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="209.229" y="392.643">OE</text>
+          <ellipse style="fill: rgb(255, 0, 0); stroke: rgb(0, 0, 0);" cx="224.234" cy="273.989" rx="15" ry="15" id="LED_OE"></ellipse>
+          <g id="SW_OE">
+            <rect x="209.229" y="308.989" width="30.005" height="50" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="214.662" y="314.123" width="19.086" height="39.732" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="214.662" y="314.123" width="19.086" height="17.055" rx="5" ry="5" style="stroke: rgb(0, 0, 0);" id="SW_OE_Inner"></rect>
+          </g>
+        </g>
+        <g id="SER">
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="209.229" y="633.654">SER</text>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="224.234" cy="515" rx="15" ry="15" id="LED_SER"></ellipse>
+          <g id="SW_SER">
+            <rect x="209.229" y="550" width="30.005" height="50" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="214.345" y="555.134" width="19.086" height="39.732" rx="5" ry="5" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"></rect>
+            <rect x="214.345" y="577.811" width="19.086" height="17.055" rx="5" ry="5" style="stroke: rgb(0, 0, 0);" id="SW_SER_Inner"></rect>
+          </g>
+        </g>
+        <g id="LEDs">
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="189.823" rx="15" ry="15" id="LED_Qa"></ellipse>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="239.823" rx="15" ry="15" id="LED_Qb"></ellipse>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="289.823" rx="15" ry="15" id="LED_Qc"></ellipse>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="339.823" rx="15" ry="15" id="LED_Qd"></ellipse>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="389.823" rx="15" ry="15" id="LED_Qe"></ellipse>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="439.823" rx="15" ry="15" id="LED_Qf"></ellipse>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="489.823" rx="15" ry="15" id="LED_Qg"></ellipse>
+          <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="1015" cy="539.823" rx="15" ry="15" id="LED_Qh"></ellipse>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="195.7">Qa</text>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="246.489">Qb</text>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="295.541">Qc</text>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="346.33">Qd</text>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="396.744">Qe</text>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="447.533">Qf</text>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="496.585">Qg</text>
+          <text style="font-family: Courier New; font-size: 25px; white-space: pre;" x="949.06" y="547.374">Qh</text>
+        </g>
+      </svg>
+    </div>
+  </body>
+</html>
